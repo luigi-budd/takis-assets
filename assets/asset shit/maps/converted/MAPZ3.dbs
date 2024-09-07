@@ -1,0 +1,110 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "SRB2_22UDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAPZ3
+	{
+		defaultwalltexture = "GFZWALL2";
+		overridemiddletexture = false;
+		defaultceiltexture = "F_SKY1";
+		overrideceiltexture = false;
+		custombrightness = 196;
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "C:\\Users\\14325\\SRB2 v2.2\\DEV\\Takis the Fox\\BARACK TAKIS.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
+		}
+		viewpositiony = 258.6766f;
+		viewpositionx = 80.74865f;
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 16;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 1.674636f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		defaulttoptexture = "GFZWALL2";
+		overridebottomtexture = false;
+		
+		fieldtypes
+		{
+			
+			sector
+			{
+				triggertag = 15;
+				lightcolor = 0;
+				friction = 1;
+				lightalpha = 0;
+				damagetype = 2;
+			}
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+			}
+			
+			linedef
+			{
+				stringarg0 = 2;
+			}
+		}
+		defaultbottomtexture = "GFZWALL2";
+		defaultfloortexture = "GFZFLR01";
+		overrideceilheight = false;
+		overridebrightness = false;
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+	}
+}

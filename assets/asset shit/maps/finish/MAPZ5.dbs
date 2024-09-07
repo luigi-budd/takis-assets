@@ -1,0 +1,164 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "SRB2_22UDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAPZ5
+	{
+		
+		resources
+		{
+		}
+		defaultfloortexture = "GFZFLR01";
+		defaultceiltexture = "GFZFLR01";
+		defaulttoptexture = "GFZROCK";
+		defaultwalltexture = "GFZROCK";
+		defaultbottomtexture = "GFZROCK";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		viewpositionx = 6709.234f;
+		viewpositiony = 1612.269f;
+		viewscale = 0.1792159f;
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 128;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+					
+					prefab1
+					{
+						name = "[Previous]";
+						numberofsectors = 32;
+						outervertexmultiplier = 1;
+						innervertexmultiplier = 1;
+						stairtype = 0;
+						sectordepth = 64;
+						spacing = 0;
+						frontside = false;
+						singlesectors = false;
+						distinctsectors = false;
+						singledirection = false;
+						distinctbaseheights = false;
+						flipping = 0;
+						numberofcontrolpoints = 1;
+						applyfloormod = true;
+						floormod = 0;
+						applyceilingmod = true;
+						ceilingmod = 0;
+						applyfloortexture = false;
+						floortexture = "";
+						applyceilingtexture = false;
+						ceilingtexture = "";
+						applyuppertexture = true;
+						uppertexture = "GFZROCK";
+						upperunpegged = true;
+						applymiddletexture = false;
+						middletexture = "-";
+						applylowertexture = true;
+						lowertexture = "GFZROCK";
+						lowerunpegged = true;
+					}
+				}
+			}
+		}
+		
+		fieldtypes
+		{
+			
+			linedef
+			{
+				stringarg0 = 2;
+				takis_textbox = 0;
+			}
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsetx_top = 1;
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsety_bottom = 1;
+				offsety_top = 1;
+			}
+			
+			sector
+			{
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 17;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				rotationfloor = 17;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				triggertag = 0;
+				lightcolor = 0;
+			}
+			
+			thing
+			{
+				mobjscale = 0;
+			}
+		}
+	}
+}
