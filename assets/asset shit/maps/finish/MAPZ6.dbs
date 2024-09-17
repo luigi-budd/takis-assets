@@ -10,22 +10,12 @@ maps
 		
 		resources
 		{
-			
-			resource0
-			{
-				type = 2;
-				location = "C:\\Users\\14325\\SRB2 v2.2\\DEV\\Takis the Fox\\BARACK TAKIS.pk3";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
-			}
 		}
-		defaultfloortexture = "GFZFLR01";
+		defaultfloortexture = "THZ2N11";
 		defaultceiltexture = "F_SKY1";
-		defaulttoptexture = "GFZROCK";
-		defaultwalltexture = "GFZROCK";
-		defaultbottomtexture = "GFZROCK";
+		defaulttoptexture = "THRAIL2M";
+		defaultwalltexture = "THRAIL2M";
+		defaultbottomtexture = "THRAIL2M";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -38,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 152.0997f;
-		viewpositiony = 59.03299f;
-		viewscale = 0.6499996f;
+		viewpositionx = -10408.88f;
+		viewpositiony = 8081.303f;
+		viewscale = 0.1060449f;
 		
 		grid
 		{
@@ -50,7 +40,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32;
+			gridsize = 256;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -84,6 +74,52 @@ maps
 			stderriserror = true;
 		}
 		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+					
+					prefab1
+					{
+						name = "[Previous]";
+						numberofsectors = 17;
+						outervertexmultiplier = 1;
+						innervertexmultiplier = 1;
+						stairtype = 0;
+						sectordepth = 64;
+						spacing = 0;
+						frontside = false;
+						singlesectors = false;
+						distinctsectors = false;
+						singledirection = false;
+						distinctbaseheights = false;
+						flipping = 0;
+						numberofcontrolpoints = 1;
+						applyfloormod = true;
+						floormod = 0;
+						applyceilingmod = true;
+						ceilingmod = 0;
+						applyfloortexture = false;
+						floortexture = "";
+						applyceilingtexture = false;
+						ceilingtexture = "";
+						applyuppertexture = true;
+						uppertexture = "ERZGREY3";
+						upperunpegged = true;
+						applymiddletexture = false;
+						middletexture = "-";
+						applylowertexture = true;
+						lowertexture = "ERZGREY3";
+						lowerunpegged = true;
+					}
+				}
+			}
+		}
+		
 		fieldtypes
 		{
 			
@@ -95,11 +131,33 @@ maps
 			sidedef
 			{
 				offsetx_mid = 1;
+				offsetx_bottom = 1;
+				offsety_mid = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
 			}
 			
 			sector
 			{
-				triggertag = 0;
+				rotationceiling = 17;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				triggertag = 15;
+				damagetype = 2;
+				lightfloor = 0;
+				lightceiling = 0;
+			}
+			
+			thing
+			{
+				mobjscale = 0;
 			}
 		}
 	}
