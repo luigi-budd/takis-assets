@@ -13,16 +13,6 @@ maps
 			
 			resource0
 			{
-				type = 2;
-				location = "C:\\Users\\14325\\SRB2 v2.2\\DEV\\Takis the Fox\\BARACK TAKIS.pk3";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
-			}
-			
-			resource1
-			{
 				type = 0;
 				location = "C:\\Users\\14325\\Downloads\\um.wad";
 				option1 = 0;
@@ -48,9 +38,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -2783.001f;
-		viewpositiony = -1214.777f;
-		viewscale = 0.179216f;
+		viewpositionx = -5467.637f;
+		viewpositiony = -291.6885f;
+		viewscale = 0.3028749f;
 		
 		grid
 		{
