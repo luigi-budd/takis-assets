@@ -28,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 6709.234f;
-		viewpositiony = 1612.269f;
-		viewscale = 0.1792159f;
+		viewpositionx = 8880.061f;
+		viewpositiony = -1736.558f;
+		viewscale = 0.06274842f;
 		
 		grid
 		{
@@ -40,7 +40,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 128;
+			gridsize = 512;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -143,15 +143,15 @@ maps
 			{
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 17;
+				rotationceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
-				rotationfloor = 17;
+				rotationfloor = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
-				triggertag = 0;
+				triggertag = 15;
 				lightcolor = 0;
 			}
 			
