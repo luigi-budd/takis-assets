@@ -1,6 +1,6 @@
 type = "Doom Builder Map Settings Configuration";
 gameconfig = "SRB2_22UDMF.cfg";
-strictpatches = 0;
+strictpatches = 1;
 
 maps
 {
@@ -10,16 +10,6 @@ maps
 		
 		resources
 		{
-			
-			resource0
-			{
-				type = 0;
-				location = "C:\\Users\\14325\\Downloads\\um.wad";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
-			}
 		}
 		defaultfloortexture = "GFZFLR01";
 		defaultceiltexture = "F_SKY1";
@@ -38,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -5467.637f;
-		viewpositiony = -291.6885f;
-		viewscale = 0.3028749f;
+		viewpositionx = 2807.876f;
+		viewpositiony = -7207.028f;
+		viewscale = 0.3028737f;
 		
 		grid
 		{
@@ -68,7 +58,7 @@ maps
 					prefab1
 					{
 						name = "[Previous]";
-						numberofsectors = 25;
+						numberofsectors = 12;
 						outervertexmultiplier = 1;
 						innervertexmultiplier = 1;
 						stairtype = 0;
@@ -143,35 +133,9 @@ maps
 		fieldtypes
 		{
 			
-			linedef
-			{
-				stringarg0 = 2;
-			}
-			
-			sidedef
-			{
-				offsetx_bottom = 1;
-				offsetx_mid = 1;
-				offsetx_top = 1;
-			}
-			
 			sector
 			{
-				damagetype = 2;
-				triggertag = 15;
-				lightcolor = 0;
-				lightalpha = 0;
 				friction = 1;
-				rotationceiling = 1;
-				xpanningceiling = 1;
-				ypanningceiling = 1;
-				xpanningfloor = 1;
-				ypanningfloor = 1;
-				rotationfloor = 1;
-				xscaleceiling = 1;
-				yscaleceiling = 1;
-				xscalefloor = 1;
-				yscalefloor = 1;
 			}
 		}
 	}

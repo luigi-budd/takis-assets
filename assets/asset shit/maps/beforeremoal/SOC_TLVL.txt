@@ -1,0 +1,92 @@
+Level 25
+Levelname = Black Core
+Act = 1
+Keywords = BCZ1
+Music = BCZ1
+NextLevel = 26
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+SkyNum = 22
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+FlickyList = All
+SaveGame = true
+ForceResetMusic = On
+WarningTitle = true
+Lua.Takis_RakisReplay = true
+Lua.Takis_RakisAch = true
+
+Level Z0
+Levelname = Red Room
+Act = 0
+NoZone = true
+Music = REDROM
+NextLevel = 1
+TypeOfLevel = Singleplayer
+HideInStats = true
+Hidden = true
+SkyNum = 34
+ForceCharacter = Takisthefox
+FlickyList = None
+BonusType = None
+Lua.Takis_HH_Timelimit = 0
+Lua.Takis_HH_Tag = 9999
+Lua.Takis_TutorialMap = true
+
+Level Z3
+Levelname = Test Room
+Act = 1
+NoZone = true
+Music = KTUT
+TypeOfLevel = Singleplayer,Coop,CTF,Match
+Lua.Takis_HH_NoMusic = true
+Lua.Takis_HH_Timelimit = 180
+Lua.Takis_HH_NoHappyHour = true
+Lua.Takis_RakisReplay = true
+Lua.Takis_MaxHeartCards = 5
+Lua.Takis_BombHP = true
+NoVisitNeeded = true
+LevelSelect = 1
+SkyNum = 1
+
+Level Z4
+Levelname = Test Room
+SubTitle = Kart Test Room
+Act = 2
+NextLevel = 1
+NoZone = true
+Music = KTUT
+TypeOfLevel = Singleplayer,Coop,Race
+NoVisitNeeded = true
+LevelSelect = 1
+Lua.ForceKartExtra = true
+Lua.takis_hh_nohappyhour = true
+Lua.Takis_RakisReplay = true
+SkyNum = 1
+
+Level Z5
+Levelname = DRRR Tutorial
+SubTitle = Man this shit long as fuck
+Act = 1
+NoZone = true
+Music = KTUT
+TypeOfLevel = Singleplayer
+NoReload = true
+Lua.Takis_HH_Timelimit = 0
+Lua.Takis_HH_NoHappyHour = true
+NoVisitNeeded = true
+LevelSelect = 1
+SkyNum = 1
+
+Level Z6
+Levelname = Kart Tutorial
+NoZone = true
+Music = KTUT
+TypeOfLevel = Singleplayer
+Lua.Takis_KartTutorial = true
+Lua.Takis_HH_NoHappyHour = true
+NoVisitNeeded = true
+LevelSelect = 1
+SkyNum = 4
+NextLevel = TITLE
+SkyboxScale = 64
